@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family:'gabarito';
+}
+.navbar{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid black 1px;
+    gap: 10px;
+}
+.navbar__s1__title{
+    color: #A435F0;
+}
+.navbar__s2{
+    padding: 10px;
+    border: solid black 1px;
+    border-radius:30px;
+    width:60%;
+    border-color: #A435F0;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+}
+.navbar__s2 input{
+    border: none;
+    width:100%;
+    font-size:16px;
+}
+.navbar__s2 input:focus{
+      outline:none;
+
+}
+.navbar__s3{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.categories{
+    display: flex;
+    padding:10px;
+    border-bottom: solid black 1px;
+    justify-content: space-around;
+}
+.categories p{
+    background-color:#A435F0 ;
+    color:white;
+    padding: 10px;
+    border-radius: 30px;
+}
+.sale-image  img{
+    width:100%
+}
+.recommended{
+    padding: 10px;
+}
+.recommended__container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    flex-wrap: wrap;
+
+
+}
+.course-card{
+    width:20%;
+}
+.course-card img{
+    width:100%;
+    height:50%;
+}
+.topics{
+    padding: 10px;
+}
+.topics__container{
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+    flex-wrap: wrap;
+}
+.topics__container p{
+    border: solid gray 2px;
+    padding: 10px;
+    flex-grow: 1;
+    flex-basis: 25%;
+}
+.popular{
+    padding: 10px;
+}
+.popular__container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+.footer__container{
+    padding: 30px;
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+.footer__one__s1{
+    display: flex;
+     justify-content: space-between;
+     gap: 10px;
+     
+}
+.footer__two__s2{
+    display: flex;
+     gap: 10px;
+     
+}
+
+.footer__one p{
+    margin: 20px;
+}
+.footer__three{
+    display: flex;
+    justify-content:space-between ;
+}
+
+
+
